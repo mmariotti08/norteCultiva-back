@@ -17,6 +17,10 @@ module.exports = ( sequelize ) => {
     category: {
         type: DataTypes.STRING,
     },
+    featured: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false
+    },
     detail: {
         type: DataTypes.STRING,
     },
